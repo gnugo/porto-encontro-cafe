@@ -26,8 +26,8 @@ const Contact = () => {
               </div>
               <h3 className="font-display text-xl font-semibold mb-2 text-foreground">Endereço</h3>
               <p className="font-sans text-muted-foreground">
-                Rua Exemplo, 123<br />
-                1200-000 Lisboa<br />
+                Rua das Flores, n.º 15<br />
+                4000-010 Porto<br />
                 Portugal
               </p>
             </Card>
@@ -38,7 +38,7 @@ const Contact = () => {
               </div>
               <h3 className="font-display text-xl font-semibold mb-2 text-foreground">Telefone</h3>
               <p className="font-sans text-muted-foreground">
-                +351 XXX XXX XXX<br />
+                +351 912 345 678<br />
                 Segunda a Sábado<br />
                 8h00 - 20h00
               </p>
@@ -77,7 +77,7 @@ const Contact = () => {
               </h2>
               <div className="aspect-video bg-muted rounded-lg overflow-hidden">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3113.2077037156754!2d-9.142685084618896!3d38.71667997959628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd19338e0e5e8d77%3A0xa66a53e58036d46!2sLisboa%2C%20Portugal!5e0!3m2!1spt-PT!2spt!4v1234567890123!5m2!1spt-PT!2spt"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3004.494287394863!2d-8.614776!3d41.145645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2464e30d20bf5f%3A0x4c1b6c7e8a7b3c8f!2sRua%20das%20Flores%2C%20Porto!5e0!3m2!1spt-PT!2spt!4v1234567890123!5m2!1spt-PT!2spt"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
@@ -90,8 +90,8 @@ const Contact = () => {
               <div className="mt-6 space-y-4 font-sans text-muted-foreground">
                 <div>
                   <h3 className="font-semibold text-foreground mb-2">Transportes Públicos</h3>
-                  <p>Metro: Estação Baixa-Chiado (Linha Azul e Verde) - 5 min a pé</p>
-                  <p>Autocarros: 758, 759, 760 - Paragem Rua Exemplo</p>
+                  <p>Metro: Estação São Bento (Linha D) - 5 min a pé</p>
+                  <p>Autocarros: Várias linhas param na Praça da Liberdade</p>
                 </div>
                 <div>
                   <h3 className="font-semibold text-foreground mb-2">Estacionamento</h3>
@@ -111,7 +111,7 @@ const Contact = () => {
             Estamos à sua espera!
           </h2>
           <p className="font-sans text-lg max-w-2xl mx-auto opacity-90">
-            Venha experimentar o melhor café de Lisboa num ambiente único e acolhedor. 
+            Venha experimentar o melhor café do Porto num ambiente único e acolhedor. 
             Seguimos todos os protocolos de higiene e segurança para garantir a sua tranquilidade.
           </p>
         </div>
