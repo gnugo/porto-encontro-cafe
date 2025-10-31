@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Logo and Description */}
           <div>
-            <img src={logo} alt="Porto de Encontro" className="h-16 w-auto mb-4 brightness-0 invert" />
+            <img src={logo} alt="Porto de Encontro" className="h-24 w-auto mb-4 brightness-0 invert" />
             <p className="text-sm opacity-90 font-sans">
               O seu café urbano chique onde tradição e modernidade se encontram.
             </p>
