@@ -22,7 +22,7 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <Link to="/" className="flex items-center gap-3 transition-transform hover:scale-105">
-            <img src={logo} alt="Porto de Encontro" className="h-18 w-auto" />
+            <img src={logo} alt="Porto de Encontro" className="h-14 w-auto" />
           </Link>
 
           {/* Desktop Navigation */}
