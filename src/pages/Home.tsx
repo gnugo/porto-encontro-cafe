@@ -2,10 +2,14 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Coffee, Users, Heart } from "lucide-react";
 import { Link } from "react-router-dom";
 import heroImage from "@/assets/hero-cafe.jpg";
+import PromoPopup from "@/components/PromoPopup";
+import promoNatal from "@/assets/promotions/promo-natal.jpg";
 
 const Home = () => {
   return (
     <div className="min-h-screen">
+      {/* Promo Popup */}
+      <PromoPopup imageUrl={promoNatal} />
       {/* Hero Section */}
       <section className="relative h-[90vh] flex items-center justify-center overflow-hidden">
         <div 

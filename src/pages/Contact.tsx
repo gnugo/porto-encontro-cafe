@@ -1,17 +1,25 @@
 import { Card } from "@/components/ui/card";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import cafeImage from "@/assets/products/cafe/cafe.jpeg";
 
 const Contact = () => {
   return (
     <div className="min-h-screen pt-20">
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-br from-secondary to-background">
-        <div className="container mx-auto px-4">
-          <h1 className="font-display text-5xl md:text-6xl font-bold text-center mb-8 text-foreground">
+      <section className="relative py-32 overflow-hidden">
+        <div 
+          className="absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: `url(${cafeImage})` }}
+        >
+          <div className="absolute inset-0 bg-gradient-to-r from-black/80 to-black/60" />
+        </div>
+        
+        <div className="relative z-10 container mx-auto px-4 text-center">
+          <h1 className="font-display text-5xl md:text-6xl font-bold mb-8 text-primary-foreground">
             Contacto & Localização
           </h1>
-          <p className="font-sans text-xl text-center text-muted-foreground max-w-3xl mx-auto">
-            Venha visitar-nos e descubra o seu novo lugar favorito em Lisboa
+          <p className="font-sans text-xl text-primary-foreground/90 max-w-3xl mx-auto">
+            Venha visitar-nos e descubra o seu novo lugar favorito no Porto
           </p>
         </div>
       </section>

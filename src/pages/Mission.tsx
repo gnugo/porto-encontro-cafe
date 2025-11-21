@@ -1,16 +1,24 @@
 import { Target, Eye, Award } from "lucide-react";
 import { Card } from "@/components/ui/card";
+import latteImage from "@/assets/products/cafe/latte.jpeg";
 
 const Mission = () => {
   return (
     <div className="min-h-screen pt-20">
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-br from-secondary to-background">
-        <div className="container mx-auto px-4">
-          <h1 className="font-display text-5xl md:text-6xl font-bold text-center mb-8 text-foreground">
+      <section className="relative py-32 overflow-hidden">
+        <div 
+          className="absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: `url(${latteImage})` }}
+        >
+          <div className="absolute inset-0 bg-gradient-to-r from-black/85 to-black/65" />
+        </div>
+        
+        <div className="relative z-10 container mx-auto px-4 text-center">
+          <h1 className="font-display text-5xl md:text-6xl font-bold mb-8 text-primary-foreground">
             Missão & Objetivos
           </h1>
-          <p className="font-sans text-xl text-center text-muted-foreground max-w-3xl mx-auto">
+          <p className="font-sans text-xl text-primary-foreground/90 max-w-3xl mx-auto">
             O nosso compromisso em criar experiências memoráveis e construir um futuro sustentável
           </p>
         </div>
